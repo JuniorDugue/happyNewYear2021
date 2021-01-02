@@ -69,4 +69,10 @@ body footer {
   bottom: 30px;
   left: 50%;
 }
+
+@media (max-width: 767px) {
+  body footer {
+    left: 40%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

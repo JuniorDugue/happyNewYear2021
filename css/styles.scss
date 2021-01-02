@@ -63,6 +63,9 @@ body {
     position: absolute;
     bottom: 30px;
     left: 50%;
+    @media (max-width: $mobile-layout) {
+      left: 40%;
+    }
   }
 }
 
