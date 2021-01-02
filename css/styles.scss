@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  color: rgb(38, 38, 38);
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  font-family: "Poppins", sans-serif;
+  padding: 14em 14em 14em 20em;
+
+  .circle {
+    width: 400px;
+    height: 400px;
+    background: rgb(251, 194, 235);
+    top: 200px;
+    left: 200px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .container {
+    display: inline-block;
+    background: rgba(255, 25, 255, 0.2);
+    color: rgb(255, 255, 255);
+    padding: 3em;
+    border-radius: 3em;
+    position: relative;
+    z-index: 1;
+    font-size: 1.25rem;
+
+    h2 {
+      font-family: "Roboto Slab", serif;
+    }
+  }
+}
+
+// background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+// FBC2EB
+// A6C1EE
+// 4F518C
+// AF125A
