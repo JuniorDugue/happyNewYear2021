@@ -1,3 +1,5 @@
+$mobile-layout: 767px;
+
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +43,13 @@ body {
     border: 2px solid transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+
+    @media (max-width: $mobile-layout) {
+      position: absolute;
+      left: 0;
+      padding: 1em;
+      border-radius: 1em;
+    }
 
     h2 {
       font-family: "Roboto Slab", serif;

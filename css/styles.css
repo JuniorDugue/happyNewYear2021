@@ -47,6 +47,15 @@ body .container {
           box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
+@media (max-width: 767px) {
+  body .container {
+    position: absolute;
+    left: 0;
+    padding: 1em;
+    border-radius: 1em;
+  }
+}
+
 body .container h2 {
   font-family: "Roboto Slab", serif;
   font-size: 2.4rem;
