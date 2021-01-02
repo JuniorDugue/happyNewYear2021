@@ -49,5 +49,14 @@ body .container {
 body .container h2 {
   font-family: "Roboto Slab", serif;
   font-size: 2.4rem;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+
+body footer {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
 }
 /*# sourceMappingURL=styles.css.map */
