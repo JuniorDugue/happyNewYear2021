@@ -1,4 +1,4 @@
-# Happy New Year 2020
+# Happy New Year 2021
 
 #### Landing page was designed in Adobe XD
 ![mockup made in xd](/img/adobexd.jpg)
